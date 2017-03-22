@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 class LeftBar extends Component{
   handlevSpace(){
-    alert('Hi We are vSpace');
+    alert('Hi, We are vSpace');
   }
   render(){
     return(
       <div id="left-bar">
           <button type="button" onClick={this.handlevSpace} className="button-style">
-          <div className="fa fa-home" ></div> <span className="text-style">vSpace</span>
+          <div className="fa fa-home" ></div><span className="text-style">vSpace</span>
          </button>
          <button type="button" className="button-style">
             <div className="fa fa-search fa-flip-horizontal search-icon"></div>
