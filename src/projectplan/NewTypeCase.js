@@ -17,7 +17,6 @@ class NewTypeCase extends Component {
     this.setState({selectValue:e.target.value});
   }
   handleAddColumn(){
-    // alert(this.state.selectValue);
     this.props.onAddColumn(this.state.selectValue);
     this.setState({openAddNewColumn:false});
   }

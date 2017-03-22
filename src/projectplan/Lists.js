@@ -5,7 +5,6 @@ import InputNew from './InputNew';
 class Lists extends Component {
   constructor(props) {
      super(props);
-     console.log('Lists this.props',this.props);
      this.state = {header:this.props.header,case:this.props.item,statusAdding:this.props.item.status, status:this.props.status, sid:this.props.sid}
      this.onAddNew = this.onAddNew.bind(this);
      this.onAdding = this.onAdding.bind(this);
