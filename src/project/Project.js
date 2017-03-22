@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import LeftBar from '../nav/LeftBar';
 import RightBar from '../nav/RightBar';
-import MyApp from './MyApp';
-import './App.css';
+// import MyApp from './MyApp';
+import '../projectplan/App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {...props};
-  }
+class Project extends Component {
   render(){
     return(
       <div>
@@ -22,7 +17,6 @@ class App extends Component {
           </div>
           <div id="vspace-container">
             <div className="vspace-wrapper">
-              <MyApp casetype={this.state.casetype} projectInfo={this.state.projectInfo} listType={this.state.listType} />
             </div>
           </div>
         </div>
@@ -30,5 +24,4 @@ class App extends Component {
     )
   }
 }
-
-export default App;
+export default Project;
