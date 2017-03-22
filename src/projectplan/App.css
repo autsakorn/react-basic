@@ -85,11 +85,12 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
   position: fixed;
-	height: 18px;left: 0;top: 0;right: 0;
+	/*height: 18px;*/
+  left: 0;top: 0;right: 0;
 	padding: 10px;
 }
 #right-bar {
-    height: 18px;
+    /*height: 18px;*/
     width: auto;
     float: right;
     margin-top: -30px;
