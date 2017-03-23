@@ -438,6 +438,7 @@ form a,form a:hover {
   cursor: pointer;
 }
 
+/*NEW UPDATE 23/03/2017 */
 @media (min-width: 768px){
   .navbar{border-radius:0px; background: rgba(0,0,0,.15); color:#FFF; border: none}
 }
@@ -459,4 +460,7 @@ form a,form a:hover {
   .container {
       width: 100%;
   }
+}
+* {
+    box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Welcome.css';
+// import './Welcome.css';
 import FormLogin from './FormLogin.js';
 
 class Welcome extends Component{
