@@ -26,7 +26,7 @@ import React, { Component } from 'react';
        <div className="login" >
          <div className="login-screen">
             <div className="app-title">
-              <h2>vSpace</h2>
+              <h3>vSpace</h3>
               <form onSubmit={this.handleSubmit}>
               <div className="control-group">
               <input type="text" className="Username" placeholder="Username" value={this.state.User} onChange={this.handleUserChange} />
