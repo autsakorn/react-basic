@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 class LeftBar extends Component{
   handlevSpace(){
-    alert('Hi, We are vSpace');
+    alert('Hi, We \'re vSpace');
   }
   render(){
     return(
