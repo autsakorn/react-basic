@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import LeftBar from '../nav/LeftBar';
 import RightBar from '../nav/RightBar';
+import NavCompoment from '../nav/NavCompoment';
 import MyApp from './MyApp';
 import './App.css';
 
@@ -14,12 +15,7 @@ class App extends Component {
     return(
       <div>
         <div className="color-5-0">
-          <div id="header">
-            <div id="nav-bar">
-            <LeftBar />
-            <RightBar info={this.props.info} />
-            </div>
-          </div>
+          <NavCompoment info={this.props.info} />
           <div id="vspace-container">
             <div className="vspace-wrapper">
               <MyApp casetype={this.state.casetype} projectInfo={this.state.projectInfo} listType={this.state.listType} />
