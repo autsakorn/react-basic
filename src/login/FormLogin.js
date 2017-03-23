@@ -10,7 +10,7 @@ import React, { Component } from 'react';
        <div className="login">
          <div className="login-screen">
             <div className="app-title">
-              <h3>vSpace</h3>
+              <h4>vSpace</h4>
               <div className="control-group">
               <input type="text" className="Username" placeholder="Username"/>
               </div>

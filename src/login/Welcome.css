@@ -11,7 +11,7 @@ background-color: #3498DB;
 padding: 50px;
 }
 .login {
-margin: 20px auto;
+margin: 50px auto;
 width: 300px;
 }
 .login-screen {
@@ -49,7 +49,7 @@ border: 2px solid #3498DB;
 box-shadow: none;
 }
 
-.btn {
+.login-btn {
   border: 2px solid transparent;
   background: #3498DB;
   color: #ffffff;
@@ -66,7 +66,7 @@ box-shadow: none;
   margin: 0 auto;
 }
 
-.btn:hover {
+.login-btn:hover {
   background-color: #2980B9;
 }
 
