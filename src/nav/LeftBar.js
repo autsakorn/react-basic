@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 class LeftBar extends Component{
   handlevSpace(){
-    alert('Hi, We \'re vSpace');
+    localStorage.removeItem("project_sid");
+    location.reload();
   }
   render(){
     return(

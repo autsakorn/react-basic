@@ -1,7 +1,9 @@
+var END_POINT_2 = 'http://vspace.in.th/apis/';
 var Url = {
-  'urlInfo':"http://vspace.in.th/apis/v1/user/header",
-  'urlProjectDetail':"http://vspace.in.th/apis/v1/projectplan/projectdetail",
-  'urlListCaseAll':"http://vspace.in.th/apis/v1/casetype/listCaseAll"
+  'info':END_POINT_2+"v1/user/header",
+  'projectDetail':END_POINT_2+"v1/projectplan/projectdetail",
+  'listCaseAll':END_POINT_2+"v1/casetype/listCaseAll",
+  'project':END_POINT_2+"v1/projectplan/projectlist"
 }
 
 export default Url;

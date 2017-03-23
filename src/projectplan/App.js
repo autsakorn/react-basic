@@ -13,7 +13,7 @@ class App extends Component {
   render(){
     return(
       <div>
-        <div className="color-7-0">
+        <div className="color-5-0">
           <div id="header">
             <div id="nav-bar">
             <LeftBar />

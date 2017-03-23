@@ -434,3 +434,6 @@ form a,form a:hover {
   opacity: 1;
   transform: translate(0);
 }
+.link {
+  cursor: pointer;
+}
